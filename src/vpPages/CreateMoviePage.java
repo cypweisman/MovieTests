@@ -14,8 +14,8 @@ public class CreateMoviePage extends PageObject {
 		 driver.get("https://v2lp.herokuapp.com/movies/new");
 		
 		if (!"https://v2lp.herokuapp.com/movies/new".equals(driver.getCurrentUrl())) {
-            throw new IllegalStateException("This is not the create movie page");
-        }
+            	    throw new IllegalStateException("This is not the create movie page");
+        	}
 	}
 	
 	

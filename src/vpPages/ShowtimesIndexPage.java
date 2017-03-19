@@ -13,8 +13,8 @@ public class ShowtimesIndexPage extends PageObject {
 		 driver.get("https://v2lp.herokuapp.com/showtimes");
 		
 		if (!"https://v2lp.herokuapp.com/showtimes".equals(driver.getCurrentUrl())) {
-            throw new IllegalStateException("This is not the showtimes index page");
-        }
+                    throw new IllegalStateException("This is not the showtimes index page");
+       		}
 	}
 
 
